@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E4495F6F24AA235900D6157B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4495F6E24AA235900D6157B /* main.cpp */; };
+		E4495F7824AA266D00D6157B /* fraction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4495F7624AA266D00D6157B /* fraction.cpp */; };
+		E4495F7A24AA309000D6157B /* fractionmain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4495F7924AA309000D6157B /* fractionmain.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		E4495F6B24AA235900D6157B /* learning_cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = learning_cpp; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4495F6E24AA235900D6157B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E4495F7524AA254900D6157B /* fraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fraction.h; sourceTree = "<group>"; };
+		E4495F7624AA266D00D6157B /* fraction.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fraction.cpp; sourceTree = "<group>"; };
+		E4495F7924AA309000D6157B /* fractionmain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fractionmain.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		E4495F6D24AA235900D6157B /* learning_cpp */ = {
 			isa = PBXGroup;
 			children = (
-				E4495F6E24AA235900D6157B /* main.cpp */,
+				E4495F7524AA254900D6157B /* fraction.h */,
+				E4495F7624AA266D00D6157B /* fraction.cpp */,
+				E4495F7924AA309000D6157B /* fractionmain.cpp */,
 			);
 			path = learning_cpp;
 			sourceTree = "<group>";
@@ -119,7 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4495F6F24AA235900D6157B /* main.cpp in Sources */,
+				E4495F7A24AA309000D6157B /* fractionmain.cpp in Sources */,
+				E4495F7824AA266D00D6157B /* fraction.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
